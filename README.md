@@ -3,8 +3,8 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
-This is the repo for the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model. The repo contains:
-- The [52K data](#data-release) used for fine-tuning the model
+This is a fork of the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model. This repo contains:
+- The [52K data](#data-release) automatically translated to German for fine-tuning the model
 - The code for [generating the data](#data-generation-process)
 - The code for [fine-tuning the model](#fine-tuning)
 

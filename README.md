@@ -3,7 +3,7 @@
 <a href="https://crfm.stanford.edu/alpaca/" target="_blank"><img src="assets/logo.png" alt="Stanford-Alpaca" style="width: 50%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-# Stanford Alpaca: An Instruction-following LLaMA Model 
+# Llamarr: An Instruction-following LLaMA Model trained on German instructions.
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
@@ -120,7 +120,7 @@ path to your converted checkpoint and tokenizer (following instructions in the P
 ```bash
 torchrun --nproc_per_node=4 --master_port=<your_random_port> train.py \
     --model_name_or_path <your_path_to_hf_converted_llama_ckpt_and_tokenizer> \
-    --data_path ./alpaca_data.json \
+    --data_path ./german_data.json \
     --bf16 True \
     --output_dir <your_output_dir> \
     --num_train_epochs 3 \
@@ -155,7 +155,7 @@ The same script also works for OPT fine-tuning. Here's an example for fine-tunin
 ```bash
 torchrun --nproc_per_node=4 --master_port=<your_random_port> train.py \
     --model_name_or_path "facebook/opt-6.7b" \
-    --data_path ./alpaca_data.json \
+    --data_path ./german_data.json \
     --bf16 True \
     --output_dir <your_output_dir> \
     --num_train_epochs 3 \

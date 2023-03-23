@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-<a href="https://lamarrinstitute.org" target="_blank"><img src="assets/llamarr_logo.png" alt="Stanford-Alpaca" style="width: 50%; min-width: 300px; display: block; margin: auto;"></a>
+<a href="https://lamarrinstitute.org" target="_blank"><img src="assets/llamarr_logo.png" alt="Stanford-Alpaca" style="width: 256px; display: block; margin: auto;"></a>
 </p>
 
 # Llamarr: An Instruction-following LLaMA Model trained on German instructions.
